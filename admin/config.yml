@@ -211,6 +211,28 @@ collections:
                 name: "description"
                 widget: "text"
 
+      - label: "Services Provided"
+        name: "services"
+        file: "_data/services.yml"
+        fields:
+
+          - label: "Service List"
+            name: "service"
+            widget: "list"
+            fields:
+            
+              - label: "Order Number"
+                name: "order"
+                widget: "number"
+
+              - label: "Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
       - label: "Soft Skills"
         name: "softskills"
         file: "_data/soft-skills.yml"
