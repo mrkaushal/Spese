@@ -1,6 +1,6 @@
 # The Spese Portfolio Theme
 
-*Spese is a Jekyll theme for Netlify CMS. You can [preview the theme to see what it looks like](https://spese.netlify.app/), or even [use it today](#usage).*
+*Spese is a Jekyll theme for Netlify CMS. You can [preview the theme to see what it looks like](https://spese.netlify.app/), or even [use it today](#installation-and-usage).*
 
 ## Project philosophy
 
