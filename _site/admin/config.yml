@@ -1,0 +1,94 @@
+backend:
+  name: github
+  repo: quantumx-dev/QStudio-Portfolio
+
+media_folder: "assets/uploads"
+
+collections:
+  - name: "main-settings"
+    label: "Main Settings"
+    files:
+      - label: "Main Settings"
+        name: "site"
+        file: "_config.yml"
+        fields:
+          - label: "Site Title"
+            name: "title"
+            widget: "string"
+
+          - label: "Site Description"
+            name: "description"
+            widget: "string"
+
+          - label: "Contact Form Configuration"
+            name: "contactform"
+            widget: "object"
+            fields:
+              - label: "Contact Form Heading"
+                name: "description"
+                widget: "text"
+
+              - label: "Contact Form Heading"
+                name: "description"
+                widget: "text"
+
+          - label: "Author Configuration"
+            name: "author"
+            widget: "object"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+
+              - label: "First Name"
+                name: "first"
+                widget: "string"
+
+              - label: "Last Name"
+                name: "last"
+                widget: "string"
+
+              - label: "Full Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Description"
+                name: "description"
+                widget: "string"
+
+              - label: "Date Of Birth"
+                name: "dob"
+                widget: "date"
+                format: "DD MMM YYYY"
+
+              - label: "Phone Number"
+                name: "phone"
+                widget: "string"
+
+              - label: "Email"
+                name: "email"
+                widget: "string"
+
+              - label: "Address"
+                name: "address"
+                widget: "string"
+
+              - label: "Nationality"
+                name: "nationality"
+                widget: "string"
+
+              - label: "Passion"
+                name: "passion"
+                widget: "string"
+
+              - label: "Known Languages"
+                name: "languages"
+                widget: "string"
+
+              - label: "Upload Resume"
+                name: "resumelink"
+                widget: "file"
+
+              - label: "Upload CV"
+                name: "cvlink"
+                widget: "file"

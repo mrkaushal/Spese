@@ -1,0 +1,18 @@
+educations:
+  - from: 2018
+    to: Present
+    university: Stanford
+    course: B.Sc
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit dio hic deser.
+
+  - from: 2010
+    to: 2013
+    university: bfc
+    course: B.Sc
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit dio hic deser.
+
+  - from: 2013
+    to: 2016
+    university: cfb
+    course: B.Sc
+    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit dio hic deser.

@@ -1,0 +1,872 @@
+<div id="wrapper">
+		<div class="container-fluid">
+			<div class="row no-gutters v-full">
+				<!-- Left Wrapper Starts -->
+				<div id="left-wrapper" class="col-12 col-lg-8">
+					<!-- Main Content (Home) Starts -->
+					<div id="home" class="main-content">
+						<!-- Content Hanging On Home Section Starts -->
+						<div class="hanging">
+							<div class="logo-hanging">
+								<i class="fas fa-globe"></i>
+							</div>
+							<div class="text-hanging">
+								<div class="word">
+									<h6>HELLO <span>WORLD</span></h6>
+								</div>
+							</div>
+						</div>
+						<!-- Content Hanging On Home Section Ends -->
+						<!-- Inner Content Starts -->
+						<div class="inner-content">
+							<!-- Head Content Starts -->
+							<div class="head-content">
+								<h3>I'M <span class="name">{{ site.author.name }}</span></h3>
+								<h5>As a <span class="passion" data-text="{{ site.author.passion }}"></span></h5>
+							</div>
+							<!-- Head Content Ends -->
+							<!-- Content Starts -->
+							<div class="content">
+								<!-- About Menu Starts -->
+								<div id="about-menu" class="box-wrapper">
+									<div class="inner-box-wrapper">
+										<a href="#about" class="menu-link">
+											<div class="valign-center">
+												<i class="fas fa-id-card fa-3x"></i>
+												<h5>About <span>Me</span></h5>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!-- About Menu Ends -->
+								<!-- Resume Menu Starts -->
+								<div id="resume-menu" class="box-wrapper">
+									<div class="inner-box-wrapper">
+										<a href="#resume" class="menu-link">
+											<div class="valign-center">
+												<i class="fas fa-newspaper fa-3x"></i>
+												<h5>My <span>Resume</span></h5>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!-- Resume Menu Ends -->
+								<!-- Portfolio Menu Starts -->
+								<div id="portfolio-menu" class="box-wrapper">
+									<div class="inner-box-wrapper">
+										<a href="#portfolio" class="menu-link">
+											<div class="valign-center">
+												<i class="fas fa-toolbox fa-3x"></i>
+												<h5>My <span>Portfolio</span></h5>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!-- Portfolio Menu Ends -->
+								<!-- Contact Menu Starts -->
+								<div id="contact-menu" class="box-wrapper">
+									<div class="inner-box-wrapper">
+										<a href="#contact" class="menu-link">
+											<div class="valign-center">
+												<i class="fas fa-envelope fa-3x"></i>
+												<h5>Contact <span>Me</span></h5>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!-- Contact Menu Ends -->
+							</div>
+							<!-- Content Ends -->
+						</div>
+						<!-- Inner Content Ends -->
+					</div>
+					<!-- Main Content (Home) Ends -->
+					<!-- Main Content (About) Starts -->
+					<div id="about" class="main-content">
+						<!-- Close Button Starts -->
+						<a href="#home" class="close-menu-link">
+							<i class="close-button fas fa-times-circle fa-2x"></i>
+						</a>
+						<!-- Close Button Ends -->
+						<!-- Content Hanging On About Section Starts -->
+						<div class="hanging">
+							<div class="logo-hanging">
+								<i class="fas fa-id-card"></i>
+							</div>
+							<div class="text-hanging">
+								<div class="word">
+									<h6>ABOUT <span>ME</span></h6>
+								</div>
+							</div>
+						</div>
+						<!-- Content Hanging On About Section Ends -->
+						<!-- Inner Content Starts -->
+						<div class="inner-content">
+							<!-- Head Content Starts -->
+							<div class="head-content">
+								<h3>About <span>Me</span></h3>
+							</div>
+							<!-- Head Content Ends -->
+							<!-- Content Starts -->
+							<div class="content">
+								<!-- Personal Info Starts -->
+								<div id="personal-info">
+									<!-- Personal Info Heading Starts -->
+									<h5>Personal Info</h5>
+									<!-- Personal Info Heading Ends -->
+									<div class="row no-gutters">
+										<!-- Profile Picture Starts -->
+										<div class="profile-picture col-md-2 col-sm-3 col-12"></div>
+										<!-- Profile Picture Ends -->
+										<!-- Summary Starts -->
+										<div class="summary col-md-10 col-sm-9 col-12">
+											<!-- Single Paragraph Starts -->
+											<p>{{ site.author.description }}</p>
+											<!-- Single Paragraph Ends -->
+										</div>
+										<!-- Summary Ends -->
+										<!-- Single Profile Starts -->
+										<div class="profile col-12 col-sm-6">
+											<ul>
+												<!-- Single Content On Profile Starts -->
+												<li>
+													<span class="label">
+														<i class="fas fa-angle-double-right"></i><span>First Name</span>
+													</span>
+													<span class="dash">-</span>
+													<span class="value">{{ site.author.first }}</span>
+												</li>
+												<!-- Single Content On Profile Ends -->
+												<!-- Single Content On Profile Starts -->
+												<li>
+													<span class="label">
+														<i class="fas fa-angle-double-right"></i><span>Last Name</span>
+													</span>
+													<span class="dash">-</span>
+													<span class="value">{{ site.author.last }}</span>
+												</li>
+												<!-- Single Content On Profile Ends -->
+												<!-- Single Content On Profile Starts -->
+												<li>
+													<span class="label">
+														<i class="fas fa-angle-double-right"></i><span>Date of Birth</span>
+													</span>
+													<span class="dash">-</span>
+													<span class="value">{{ site.author.dob }}</span>
+												</li>
+												<!-- Single Content On Profile Ends -->
+												<!-- Single Content On Profile Starts -->
+												<li>
+													<span class="label">
+														<i class="fas fa-angle-double-right"></i><span>Nationality</span>
+													</span>
+													<span class="dash">-</span>
+													<span class="value">{{ site.author.nationality }}</span>
+												</li>
+												<!-- Single Content On Profile Ends -->
+											</ul>
+										</div>
+										<!-- Single Profile Ends -->
+										<!-- Single Profile Starts -->
+										<div class="profile col-12 col-sm-6">
+											<ul>
+												<!-- Single Content On Profile Starts -->
+												<li>
+													<span class="label">
+														<i class="fas fa-angle-double-right"></i><span>Phone</span>
+													</span>
+													<span class="dash">-</span>
+													<span class="value">{{ site.author.phone }}</span>
+												</li>
+												<!-- Single Content On Profile Ends -->
+												<!-- Single Content On Profile Starts -->
+												<li>
+													<span class="label">
+														<i class="fas fa-angle-double-right"></i><span>Email</span>
+													</span>
+													<span class="dash">-</span>
+													<span class="value">{{ site.author.email }}</span>
+												</li>
+												<!-- Single Content On Profile Ends -->
+												<!-- Single Content On Profile Starts -->
+												<li>
+													<span class="label">
+														<i class="fas fa-angle-double-right"></i><span>Address</span>
+													</span>
+													<span class="dash">-</span>
+													<span class="value">{{ site.author.address }}</span>
+												</li>
+												<!-- Single Content On Profile Ends -->
+												<!-- Single Content On Profile Starts -->
+												<li>
+													<span class="label">
+														<i class="fas fa-angle-double-right"></i><span>Languages</span>
+													</span>
+													<span class="dash">-</span>
+													<span class="value">{{ site.author.languages }}</span>
+												</li>
+												<!-- Single Content On Profile Ends -->
+											</ul>
+										</div>
+										<!-- Single Profile Ends -->
+										<!-- Social Media Starts -->
+										<div class="social-media col-12">
+											<ul>
+												<!-- Single Social Media Starts -->
+                                                {% for account in site.social %}
+                                                {%- assign service_name = account[0] -%}
+                                                {%- assign service_data = site.data.social-media[service_name] -%}
+                                                {%- if service_data -%}
+												<li>
+													<a href="{{ service_data.url }}{{ account[1] }}">
+														<span class="front">
+															<i class="{{ service_data.icon }}"></i>
+														</span>
+														<span class="back">
+															<i class="{{ service_data.icon }}"></i>
+														</span>
+													</a>
+												</li>
+                                                {%- endif -%}
+                                                {% endfor %}
+												<!-- Single Social Media Ends -->
+											</ul>
+										</div>
+										<!-- Social Media Ends -->
+										<!-- Button Wrapper Starts -->
+										<div class="button-wrapper col-12">
+											<!-- Single Button Starts -->
+											<div class="single-button">
+												<a href="{{ site.author.cvlink }}">
+													<span class="front">
+														<i class="fas fa-file-pdf"></i><span class="value">Download <span>CV</span></span>
+													</span>
+													<span class="back">
+														<i class="fas fa-file-pdf"></i><span class="value">Download <span>CV</span></span>
+													</span>
+												</a>
+											</div>
+											<!-- Single Button Ends -->
+											<!-- Single Button Starts -->
+											<div class="single-button" id="contact-me">
+												<a href="#contact" id="contact-button">
+													<span class="front">
+														<i class="fas fa-envelope"></i><span class="value">Contact <span>Me</span></span>
+													</span>
+													<span class="back">
+														<i class="fas fa-envelope"></i><span class="value">Contact <span>Me</span></span>
+													</span>
+												</a>
+											</div>
+											<!-- Single Button Ends -->
+										</div>
+										<!-- Button Wrapper Ends -->
+									</div>
+								</div>
+								<!-- Personal Info Ends -->
+								<!-- Services Starts -->
+								<div id="services">
+									<!-- Services Heading Starts -->
+									<h5>Services</h5>
+									<!-- Services Heading Ends -->
+									<div class="row no-gutters">
+										{% for service in site.data.services %}
+										<!-- Single Service Starts -->
+										<div class="single-service col-sm-6 col-12">
+											<ul>
+												<li class="service-number">
+													<span class="first-word">Service</span>
+													<span class="second-word">{{ service.order }}</span>
+												</li>
+												<li>
+													<ul>
+														<li class="service-name">
+															<i class="fas fa-angle-double-right"></i><span>{{ service.name }}</span>
+														</li>
+														<li class="service-body">{{ service.description }}</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<!-- Single Service Ends -->
+										{% endfor %}
+									</div>
+								</div>
+								<!-- Services Ends -->
+							</div>
+							<!-- Content Ends -->
+						</div>
+						<!-- Inner Content Ends -->
+					</div>
+					<!-- Main Content (About) Ends -->
+					<!-- Main Content (Resume) Starts -->
+					<div id="resume" class="main-content">
+						<!-- Close Button Starts -->
+						<a href="#home" class="close-menu-link">
+							<i class="fas fa-times-circle fa-2x"></i>
+						</a>
+						<!-- Close Button Ends -->
+						<!-- Content Hanging On Resume Section Starts -->
+						<div class="hanging">
+							<div class="logo-hanging">
+								<i class="fas fa-newspaper"></i>
+							</div>
+							<div class="text-hanging">
+								<div class="word">
+									<h6>MY <span>RESUME</span></h6>
+								</div>
+							</div>
+						</div>
+						<!-- Content Hanging On Resume Section Ends -->
+						<!-- Inner Content Starts -->
+						<div class="inner-content">
+							<!-- Head Content Starts -->
+							<div class="head-content">
+								<h3>My <span>Resume</span></h3>
+							</div>
+							<!-- Head Content Ends -->
+							<!-- Content Starts -->
+							<div class="content">
+								<!-- Skills Starts -->
+								<div class="skills">
+									<!-- Skills Heading Starts -->
+									<h5>Skills</h5>
+									<!-- Skills Heading Ends -->
+									<div class="row no-gutters">
+										<!-- Single Skills Wrapper Starts -->
+										<div class="single-skills-wrapper col-12 col-sm-6">
+											<ul>
+												<!-- Skills Heading Starts -->
+												<li class="skills-heading">
+													<span class="first-word">Soft</span>
+													<span class="second-word">Skills</span>
+												</li>
+												<!-- Skills Heading Ends -->
+												<li>
+													<ul>
+														{% for skill in site.data.soft-skills.softskill %}
+														<!-- Single Skill Starts -->
+														<li class="single-skill">
+															<ul>
+																<li class="skill-name">
+																	<i class="fas fa-angle-double-right"></i><span>{{ skill.name }}</span>
+																</li>
+																<!-- Range Of Percentage 0% - 100% -->
+																<li class="percentage">{{ skill.percentage }}%</li>
+																<li class="progress-wrapper">
+																	<span class="progress"></span>
+																</li>
+															</ul>
+														</li>
+														<!-- Single Skill Ends -->
+														{% endfor %}
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<!-- Single Skills Wrapper Ends -->
+										<!-- Single Skills Wrapper Starts -->
+										<div class="single-skills-wrapper col-12 col-sm-6">
+											<ul>
+												<!-- Skills Heading Starts -->
+												<li class="skills-heading">
+													<span class="first-word">Hard</span>
+													<span class="second-word">Skills</span>
+												</li>
+												<!-- Skills Heading Ends -->
+												<li>
+													<ul>
+														{% for skill in site.data.hard-skills.hardskill %}
+														<!-- Single Skill Starts -->
+														<li class="single-skill">
+															<ul>
+																<li class="skill-name">
+																	<i class="fas fa-angle-double-right"></i><span>{{ skill.name }}</span>
+																</li>
+																<!-- Range Of Percentage 0% - 100% -->
+																<li class="percentage">{{ skill.percentage }}%</li>
+																<li class="progress-wrapper">
+																	<span class="progress"></span>
+																</li>
+															</ul>
+														</li>
+														{% endfor %}
+														<!-- Single Skill Ends -->
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<!-- Single Skills Wrapper Ends -->
+									</div>
+								</div>
+								<!-- Skills Ends -->
+								<!-- Education Starts -->
+								<div class="education">
+									<!-- Education Heading Starts -->
+									<h5>Education</h5>
+									<!-- Education Heading Ends -->
+									<div class="row no-gutters">
+										{% for edu in site.data.education.educations %}
+										<!-- Single Education Starts -->
+										<div class="single-education col-sm-6 col-12">
+											<ul>
+												<li class="education-when-where">
+													<span class="when">{{ edu.from }} - {{ edu.to }}</span>
+													<span class="where">{{ edu.university }}</span>
+												</li>
+												<li>
+													<ul>
+														<li class="education-name">
+															<i class="fas fa-angle-double-right"></i><span>{{ edu.course }}</span>
+														</li>
+														<li class="education-body">{{ edu.description }}</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<!-- Single Education Ends -->
+										{% endfor %}
+									</div>
+								</div>
+								<!-- Education Ends -->
+								<!-- Experience Starts -->
+								<div class="experience">
+									<!-- Experience Heading Starts -->
+									<h5>Experience</h5>
+									<!-- Experience Heading Ends -->
+									<div class="row no-gutters">
+										{% for experience in site.data.experience.experiences %}
+										<!-- Single Experience Starts -->
+										<div class="single-experience col-sm-6 col-12">
+											<ul>
+												<li class="experience-when-where">
+													<span class="when">{{ experience.from }} - {{ experience.to }}</span>
+													<span class="where">{{ experience.company }}</span>
+												</li>
+												<li>
+													<ul>
+														<li class="experience-name">
+															<i class="fas fa-angle-double-right"></i><span>{{ experience.role }}</span>
+														</li>
+														<li class="experience-body">{{ experience.description }}</li>
+													</ul>
+												</li>
+											</ul>
+										</div>
+										<!-- Single Experience Ends -->
+										{% endfor %}
+									</div>
+								</div>
+								<!-- Experience Ends -->
+								<!-- Fun Facts Starts -->
+								<div class="fun-facts">
+									<!-- Fun Facts Heading Starts -->
+									<h5>Fun Facts</h5>
+									<!-- Fun Facts Heading Ends -->
+									<div class="row no-gutters">
+										<!-- Single Fun Fact Starts -->
+										<div class="single-fun-fact col-12 col-sm-4">
+											<ul>
+												<li class="fun-fact-icon">
+													<i class="fas fa-business-time fa-3x"></i>
+												</li>
+												<li class="fun-fact-value">{{ site.facts.experience }}+</li>
+												<li class="fun-fact-body">
+													<i class="fas fa-angle-double-right"></i><span>Years Experience</span>
+												</li>
+											</ul>
+										</div>
+										<!-- Single Fun Fact Ends -->
+										<!-- Single Fun Fact Starts -->
+										<div class="single-fun-fact col-12 col-sm-4">
+											<ul>
+												<li class="fun-fact-icon">
+													<i class="fas fa-handshake fa-3x"></i>
+												</li>
+												<li class="fun-fact-value">{{ site.facts.projects }}+</li>
+												<li class="fun-fact-body">
+													<i class="fas fa-angle-double-right"></i><span>Done Projects</span>
+												</li>
+											</ul>
+										</div>
+										<!-- Single Fun Fact Ends -->
+										<!-- Single Fun Fact Starts -->
+										<div class="single-fun-fact col-12 col-sm-4">
+											<ul>
+												<li class="fun-fact-icon">
+													<i class="fas fa-heart fa-3x"></i>
+												</li>
+												<li class="fun-fact-value">{{ site.facts.customers }}+</li>
+												<li class="fun-fact-body">
+													<i class="fas fa-angle-double-right"></i><span>Happy Customers</span>
+												</li>
+											</ul>
+										</div>
+										<!-- Single Fun Fact Ends -->
+									</div>
+								</div>
+								<!-- Fun Facts Ends -->
+								<!-- Button Wrapper Starts -->
+								<div class="button-wrapper">
+									<!-- Single Button Starts -->
+									<a href="{{ site.author.resumelink }}">
+										<span class="front">
+											<i class="fas fa-file-pdf"></i><span class="value">Download <span>Resume</span></span>
+										</span>
+										<span class="back">
+											<i class="fas fa-file-pdf"></i><span class="value">Download <span>Resume</span></span>
+										</span>
+									</a>
+									<!-- Single Button Ends -->
+								</div>
+								<!-- Button Wrapper Ends -->
+							</div>
+							<!-- Content Ends -->
+						</div>
+						<!-- Inner Content Ends -->
+					</div>
+					<!-- Main Content (Resume) Ends -->
+					<!-- Main Content (Portfolio) Starts -->
+					<div id="portfolio" class="main-content">
+						<!-- Close Button Starts -->
+						<a href="#home" class="close-menu-link">
+							<i class="close-button fas fa-times-circle fa-2x"></i>
+						</a>
+						<!-- Close Button Ends -->
+						<!-- Content Hanging On Portfolio Section Starts -->
+						<div class="hanging">
+							<div class="logo-hanging">
+								<i class="fas fa-toolbox"></i>
+							</div>
+							<div class="text-hanging">
+								<div class="word">
+									<h6>MY <span>PORTFOLIO</span></h6>
+								</div>
+							</div>
+						</div>
+						<!-- Content Hanging On Portfolio Section Ends -->
+						<!-- Inner Content Starts -->
+						<div class="inner-content">
+							<!-- Head Content Starts -->
+							<div class="head-content">
+								<h3>My <span>Portfolio</span></h3>
+							</div>
+							<!-- Head Content Ends -->
+							<!-- Content Starts -->
+							<div class="content">
+								<!-- Projects Starts -->
+								<div id="projects">
+									<!-- Projects Heading Starts -->
+									<h5>Projects</h5>
+									<!-- Projects Heading Ends -->
+									<div class="row no-gutters">
+										<!-- Portfolio Filter Starts -->
+										<div class="portfolio-filter col-12">
+											<ul>
+												<!-- Single Filter Starts -->
+												<li>
+													<a href="#" data-filter="*" class="current">All Elements</a>
+												</li>
+												<!-- Single Filter Ends -->
+												{% for filters in site.data.data-filters.filters %}
+												<!-- Single Filter Starts -->
+												<li>
+													<a href="#" data-filter=".{{ filters.name | downcase }}">{{ filters.name }}</a>
+												</li>
+												<!-- Single Filter Ends -->
+												{% endfor %}
+											</ul>
+										</div>
+										<!-- Portfolio Filter Ends -->
+										<!-- Portfolio Item Starts -->
+										<div class="portfolio-item col-12">
+											<div class="item-wrapper row">
+												{% for project in site.portfolio %}
+												<!-- Single Item Starts -->
+												<div class="item {% for tag in project.tags %} {{ tag.name | downcase }} {% endfor %} col-md-4 col-sm-6 col-12">
+													<!-- Image Starts -->
+													<div class="image">
+														<img src="{{ project.image }}" alt="{{ project.title }}">
+													</div>
+													<!-- Image Ends -->
+													<!-- Overlay Starts -->
+													<div class="overlay">
+														<!-- View More (Button) Starts -->
+														<a class="view-more" href="#{{ project.title | slugify }}">
+															<span class="front">
+																<i class="far fa-eye"></i><span class="value">View <span>More</span></span>
+															</span>
+															<span class="back">
+																<i class="far fa-eye"></i><span class="value">View <span>More</span></span>
+															</span>
+														</a>
+														<!-- View More (Button) Ends -->
+														<!-- Image Info Starts -->
+														<div class="image-info">
+															<!-- Project Name Starts -->
+															<span class="project-name">{{ project.title }}</span>
+															<!-- Project Name Ends -->
+															<!-- Project Tags Starts -->
+															<span class="project-tags">
+																<!-- Tag Icon Starts -->
+																<span class="tag-icon">
+																	<i class="fas fa-tags"></i>
+																</span>
+																<!-- Tag Icon Ends -->
+																{% for tag in project.tags %}
+																<!-- Tag Label Starts -->
+																<span class="tag-label">{{ tag.name }}</span>
+																<!-- Tag Label Ends -->
+																{% endfor %}
+															</span>
+															<!-- Project Tags Ends -->
+														</div>
+														<!-- Image Info Ends -->
+													</div>
+													<!-- Overlay Ends -->
+													<!-- Project Popup Starts -->
+													<div id="{{ project.title | slugify }}" class="project-popup mfp-hide">
+														<!-- Project Picture On Popup Starts -->
+														<img class="project-picture" src="{{ project.image }}" alt="{{ project.title }}">
+														<!-- Project Picture On Popup Ends -->
+														<!-- Project Name Starts -->
+														<h5 class="project-name">{{ project.title }}</h5>
+														<!-- Project Name Ends -->
+														<!-- Project Info Starts -->
+														<div class="project-info">
+															<!-- List Info Project Starts -->
+															<ul class="list-info-project">
+																<!-- Single List Starts -->
+																<li>
+																	<span class="label">Client</span>
+																	<span class="separator">:</span>
+																	<span class="value">{{ project.client }}</span>
+																</li>
+																<!-- Single List Ends -->
+																<!-- Single List Starts -->
+																<li>
+																	<span class="label">Date</span>
+																	<span class="separator">:</span>
+																	<span class="value">{{ project.postdate }}</span>
+																</li>
+																<!-- Single List Ends -->
+																<!-- Single List Starts -->
+																<li>
+																	<span class="label">Categories</span>
+																	<span class="separator">:</span>
+																	{% for tag in project.tags %}
+																	<span class="value">{{ tag.name }}</span>
+																	{% endfor %}
+																</li>
+																<!-- Single List Ends -->
+															</ul>
+															<!-- List Info Project Ends -->
+															<!-- Project Description Starts -->
+															<div class="project-description">
+																{{ project.content }}
+															</div>
+															<!-- Project Description Ends -->
+														</div>
+														<!-- Project Info Ends -->
+														<!-- Project Source Button Starts -->
+														<a class="project-source" href="{{ project.source }}">
+															<span class="front">
+																<i class="fas fa-long-arrow-alt-right"></i>
+																<span class="value">Visit <span>Project</span></span>
+															</span>
+															<span class="back">
+																<i class="fas fa-long-arrow-alt-right"></i>
+																<span class="value">Visit <span>Project</span></span>
+															</span>
+														</a>
+														<!-- Project Source Button Ends -->
+													</div>
+													<!-- Project Popup Ends -->
+												</div>
+												<!-- Single Item Ends -->
+												{% endfor %}
+											</div>
+										</div>
+										<!-- Portfolio Item Ends -->
+									</div>
+								</div>
+								<!-- Projects Ends -->
+							</div>
+							<!-- Content Ends -->
+						</div>
+						<!-- Inner Content Ends -->
+					</div>
+					<!-- Main Content (Portfolio) Ends -->
+					<!-- Main Content (Contact) Starts -->
+					<div id="contact" class="main-content">
+						<!-- Close Button Starts -->
+						<a href="#home" class="close-menu-link">
+							<i class="close-button fas fa-times-circle fa-2x"></i>
+						</a>
+						<!-- Close Button Ends -->
+						<!-- Content Hanging On Contact Section Starts -->
+						<div class="hanging">
+							<div class="logo-hanging">
+								<i class="fas fa-envelope"></i>
+							</div>
+							<div class="text-hanging">
+								<div class="word">
+									<h6>CONTACT <span>ME</span></h6>
+								</div>
+							</div>
+						</div>
+						<!-- Content Hanging On Contact Section Ends -->
+						<!-- Inner Content Starts -->
+						<div class="inner-content">
+							<!-- Head Content Starts -->
+							<div class="head-content">
+								<h3>Contact <span>Me</span></h3>
+							</div>
+							<!-- Head Content Ends -->
+							<!-- Content Starts -->
+							<div class="content">
+								<!-- Contact Info Starts -->
+								<div id="contact-info">
+									<!-- Contact Info Heading Starts -->
+									<h5>Contact Info</h5>
+									<!-- Contact Info Heading Ends -->
+									<div class="row no-gutters">
+										<!-- List Contact Info Starts -->
+										<div class="list-contact-info col-12">
+											<ul class="row no-gutters">
+												<!-- Single Contact Info Starts -->
+												<li class="col-sm-6 col-12">
+													<span class="contact-info-name">Address</span>
+													<span class="icon-of-value">
+														<i class="fas fa-map-marker-alt"></i>
+													</span>
+													<span class="value">{{ site.author.address }}</span>
+												</li>
+												<!-- Single Contact Info Ends -->
+												<!-- Single Contact Info Starts -->
+												<li class="col-sm-6 col-12">
+													<span class="contact-info-name">Phone</span>
+													<span class="icon-of-value">
+														<i class="fas fa-mobile-alt"></i>
+													</span>
+													<span class="value">{{ site.author.phone }}</span>
+												</li>
+												<!-- Single Contact Info Ends -->
+												<!-- Single Contact Info Starts -->
+												<li class="col-sm-6 col-12">
+													<span class="contact-info-name">Email</span>
+													<span class="icon-of-value">
+														<i class="fas fa-envelope"></i>
+													</span>
+													<span class="value">{{ site.author.email }}</span>
+												</li>
+												<!-- Single Contact Info Ends -->
+												<!-- Single Contact Info Starts -->
+												<li class="col-sm-6 col-12">
+													<span class="contact-info-name">Website</span>
+													<span class="icon-of-value">
+														<i class="fas fa-globe"></i>
+													</span>
+													<span class="value">{{ site.social.website }}</span>
+												</li>
+												<!-- Single Contact Info Ends -->
+												<!-- Single Contact Info Starts -->
+												<li class="col-12">
+													<span class="contact-info-name">Social Media</span>
+													<ul class="social-media">
+														<!-- Single Social Media Starts -->
+														{% for account in site.social %}
+                                                        {%- assign service_name = account[0] -%}
+                                                        {%- assign service_data = site.data.social-media[service_name] -%}
+                                                        {%- if service_data -%}
+                                                        <li>
+                                                            <a href="{{ service_data.url }}{{ account[1] }}">
+                                                                <span class="front">
+                                                                    <i class="{{ service_data.icon }}"></i>
+                                                                </span>
+                                                                <span class="back">
+                                                                    <i class="{{ service_data.icon }}"></i>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        {%- endif -%}
+                                                        {% endfor %}
+														<!-- Single Social Media Ends -->
+													</ul>
+												</li>
+												<!-- Single Contact Info Ends -->
+											</ul>
+										</div>
+										<!-- List Contact Info Ends -->
+									</div>
+								</div>
+								<!-- Contact Info Ends -->
+								<!-- Contact Form Starts -->
+								<div id="contact-form">
+									<!-- Contact Form Heading Starts -->
+									<h5>Contact Form</h5>
+									<!-- Contact Form Heading Ends -->
+									<div class="row no-gutters">
+										<!-- Note Starts -->
+										<div class="note col-lg-9 col-md-9 col-12">
+											<!-- Single Paragraph Starts -->
+											<p>{{ site.contactform.description }}</p>
+											<!-- Single Paragraph Ends -->
+										</div>
+										<!-- Note Ends -->
+										<!-- Alert/Contact Message Starts -->
+										<div class="alert contact-msg col-lg-9 col-md-9 col-12"></div>
+										<!-- Alert/Contact Message Ends -->
+										<!-- Form Wrapper Starts -->
+										<div class="form-wrapper col-lg-9 col-md-9 col-12">
+											<form name="contact" method="POST" action="{{ site.contactform.emailconfig }}">
+												<div class="form-group clearfix">
+													<div class="inner-form-group">
+														<input type="text" name="name" placeholder="Name" class="form-control" autocomplete="off">
+													</div>
+													<div class="inner-form-group">
+														<input type="email" name="email" placeholder="Email" class="form-control" autocomplete="off">
+													</div>
+												</div>
+												<div class="form-group">
+													<input type="text" name="subject" placeholder="Subject" class="form-control" autocomplete="off">
+												</div>
+												<div class="form-group">
+													<textarea name="message" placeholder="Message" class="form-control" autocomplete="off"></textarea>
+												</div>
+												<div class="form-group">
+													<button type="submit">
+														<span class="front">
+															<i class="fas fa-paper-plane"></i>
+															<span class="value">Send <span>Message</span></span>
+														</span>
+														<span class="back">
+															<i class="fas fa-paper-plane"></i>
+															<span class="value">Send <span>Message</span></span>
+														</span>
+													</button>
+												</div>
+											</form>
+										</div>
+										<!-- Form Wrapper Ends -->
+									</div>
+								</div>
+								<!-- Contact Form Ends -->
+							</div>
+							<!-- Content Ends -->
+						</div>
+						<!-- Inner Content Ends -->
+					</div>
+					<!-- Main Content (Contact) Ends -->
+				</div>
+				<!-- Left Wrapper Ends -->
+				<!-- Right Wrapper Starts -->
+				<div id="right-wrapper" class="col-lg-4">
+					<!-- Large Profile Picture Starts -->
+					<div class="lg-profile-picture" style="background-image: url('{{ site.author.image }}');"></div>
+					<!-- Large Profile Picture Ends -->
+				</div>
+				<!-- Right Wrapper Ends -->
+			</div>
+		</div>
+	</div>

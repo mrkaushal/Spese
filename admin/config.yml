@@ -1,0 +1,308 @@
+backend:
+  name: github
+  repo: quantumx-dev/Spese
+
+media_folder: "assets/uploads"
+
+collections:
+  - name: "main-settings"
+    label: "Main Settings"
+    files:
+      - label: "Main Settings"
+        name: "site"
+        file: "_config.yml"
+        fields:
+          - label: "Site Title"
+            name: "title"
+            widget: "string"
+
+          - label: "Site Description"
+            name: "description"
+            widget: "string"
+
+          - label: "Site Keywords"
+            name: "keywords"
+            widget: "string"
+
+          - label: "Contact Form Configuration"
+            name: "contactform"
+            widget: "object"
+            fields:
+              - label: "Contact Form Heading"
+                name: "description"
+                widget: "text"
+
+              - label: "Server Configuration"
+                name: "emailconfig"
+                widget: "string"
+
+          - label: "Author Configuration"
+            name: "author"
+            widget: "object"
+            fields:
+              - label: "Image"
+                name: "image"
+                widget: "image"
+
+              - label: "First Name"
+                name: "first"
+                widget: "string"
+
+              - label: "Last Name"
+                name: "last"
+                widget: "string"
+
+              - label: "Full Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Description"
+                name: "description"
+                widget: "string"
+
+              - label: "Date Of Birth"
+                name: "dob"
+                widget: "date"
+                format: "DD MMM YYYY"
+
+              - label: "Phone Number"
+                name: "phone"
+                widget: "string"
+
+              - label: "Email"
+                name: "email"
+                widget: "string"
+
+              - label: "Address"
+                name: "address"
+                widget: "string"
+
+              - label: "Nationality"
+                name: "nationality"
+                widget: "string"
+
+              - label: "Passion"
+                name: "passion"
+                widget: "string"
+
+              - label: "Known Languages"
+                name: "languages"
+                widget: "string"
+
+              - label: "Upload Resume"
+                name: "resumelink"
+                widget: "file"
+
+              - label: "Upload CV"
+                name: "cvlink"
+                widget: "file"
+
+      - label: "Portfolio Filters"
+        name: "data-filters"
+        file: "_data/data-filters.yml"
+        fields:
+
+          - label: "Filters"
+            name: "filters"
+            widget: "list"
+            fields:
+            
+              - label: "Name"
+                name: "name"
+                widget: "string"
+
+  - name: "social-settings"
+    label: "Social Settings"
+    files:
+      - name: "social-setting"
+        label: "Social Network"
+        file: "_config.yml"
+        fields:
+
+          - label: "Social Accounts"
+            name: "social"
+            widget: "object"
+            fields:
+            
+              - label: "Facebook"
+                name: "facebook"
+                widget: "string"
+
+              - label: "GitHub"
+                name: "github"
+                widget: "string"
+
+              - label: "Instagram"
+                name: "instagram"
+                widget: "string"
+
+              - label: "LinkedIn"
+                name: "linkedin"
+                widget: "string"
+
+              - label: "Twitter"
+                name: "twitter"
+                widget: "string"
+
+              - label: "Website"
+                name: "website"
+                widget: "string"
+  
+  - name: "resume-settings"
+    label: "Resume Settings"
+    files:
+      - label: "Experiences"
+        name: "experience"
+        file: "_data/experience.yml"
+        fields:
+
+          - label: "Experiences"
+            name: "experiences"
+            widget: "list"
+            fields:
+            
+              - label: "From"
+                name: "from"
+                widget: "string"
+
+              - label: "To"
+                name: "to"
+                widget: "string"
+
+              - label: "Company"
+                name: "company"
+                widget: "string"
+
+              - label: "Role"
+                name: "role"
+                widget: "string"
+
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
+      - label: "Education"
+        name: "education"
+        file: "_data/education.yml"
+        fields:
+
+          - label: "Education List"
+            name: "educations"
+            widget: "list"
+            fields:
+            
+              - label: "From"
+                name: "from"
+                widget: "string"
+
+              - label: "To"
+                name: "to"
+                widget: "string"
+
+              - label: "University"
+                name: "university"
+                widget: "string"
+
+              - label: "Course"
+                name: "course"
+                widget: "string"
+
+              - label: "Description"
+                name: "description"
+                widget: "text"
+
+      - label: "Soft Skills"
+        name: "softskills"
+        file: "_data/soft-skills.yml"
+        fields:
+
+          - label: "Soft Skills"
+            name: "softskill"
+            widget: "list"
+            fields:
+            
+              - label: "Skill Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Percentage"
+                name: "percentage"
+                widget: "number"
+
+      - label: "Hard Skills"
+        name: "hardskills"
+        file: "_data/hard-skills.yml"
+        fields:
+
+          - label: "Hard Skills"
+            name: "hardskill"
+            widget: "list"
+            fields:
+            
+              - label: "Skill Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Percentage"
+                name: "percentage"
+                widget: "number"
+
+      - label: "Facts"
+        name: "facts"
+        file: "_config.yml"
+        fields:
+          - label: "Facts"
+            name: "facts"
+            widget: "object"
+            fields:
+              - label: "Work Experience"
+                name: "experience"
+                widget: "number"
+
+              - label: "Projects Completed"
+                name: "projects"
+                widget: "number"
+
+              - label: "Happy Customers"
+                name: "customers"
+                widget: "number"
+
+  - label: "Portfolio"
+    name: "portfolio"
+    folder: "_portfolio"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+
+      - label: "Client"
+        name: "client"
+        widget: "string"
+
+      - label: "Date"
+        name: "postdate"
+        widget: "date"
+        format: "DD MMM YYYY"
+
+      - label: "Tags"
+        name: "tags"
+        hint: "It should be same as included in Portfolio Filters"
+        widget: "list"
+        fields:
+          - label: "Tag"
+            name: "name"
+            widget: "string"
+
+      - label: "Source"
+        name: "source"
+        widget: "string"
+
+      - label: "Image"
+        name: "image"
+        widget: "image"
+
+      - label: "Body"
+        name: "body"
+        widget: "markdown"

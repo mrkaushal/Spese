@@ -1,0 +1,70 @@
+# Get Icons  from : https://fontawesome.com/icons
+# Get Colors from : https://brandcolors.net/
+
+behance:
+  url   : https://www.behance.net/
+  icon  : fab fa-behance
+
+dribbble:
+  url   : https://dribbble.com/
+  icon  : fab fa-dribbble
+
+facebook:
+  url   : https://www.facebook.com/
+  icon  : fab fa-facebook
+
+github:
+  url   : https://www.github.com/
+  icon  : fab fa-github
+
+gitlab:
+  url   : https://www.gitlab.com/
+  icon  : fab fa-gitlab
+
+instagram:
+  url   : https://www.instagram.com/
+  icon  : fab fa-instagram
+
+kaggle:
+  url   : https://www.kaggle.com/
+  icon  : fab fa-kaggle
+
+linkedin:
+  url   : https://www.linkedin.com/in/
+  icon  : fab fa-linkedin-in
+
+medium:
+  url   : https://medium.com/@
+  icon  : fab fa-medium
+
+soundcloud:
+  url   : https://www.soundcloud.com/
+  icon  : fab fa-soundcloud
+
+spotify:
+  url   : https://open.spotify.com/user/
+  icon  : fab fa-spotify
+
+stackoverflow:
+  url   : https://stackoverflow.com/u/
+  icon  : fab fa-stack-overflow
+
+tumblr:
+  url   : https://
+  icon  : fab fa-tumblr
+
+twitch:
+  url   : https://www.twitch.tv/
+  icon  : fab fa-twitch
+
+twitter:
+  url   : https://www.twitter.com/
+  icon  : fab fa-twitter
+
+vimeo:
+  url   : https://www.vimeo.com/
+  icon  : fab fa-vimeo-v
+
+youtube:
+  url   : https://www.youtube.com/
+  icon  : fab fa-youtube

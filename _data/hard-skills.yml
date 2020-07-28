@@ -1,0 +1,12 @@
+hardskill:
+  - name: "Teamwork"
+    percentage: "10"
+
+  - name: "Communication"
+    percentage: "30"
+
+  - name: "Leadership"
+    percentage: "90"
+
+  - name: "Problem Solving"
+    percentage: "5"

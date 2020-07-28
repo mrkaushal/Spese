@@ -1,0 +1,23 @@
+- order: "01"
+  name: Web Service
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore exercitationem."
+
+- order: "02"
+  name: Web Design
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore exercitationem."
+
+- order: "03"
+  name: Web Development
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore exercitationem."
+
+- order: "04"
+  name: Graphics Service
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore exercitationem."
+
+- order: "05"
+  name: Design Service
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore exercitationem."
+
+- order: "06"
+  name: Dev Service
+  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore exercitationem."
