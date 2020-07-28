@@ -9,7 +9,7 @@
 
 5. Register  your application by clicking on *Register application* button.
 6. When you complete the registration, you'll be given a Client ID and a Client Secret for the app. You'll need to add these to your Netlify site.
-7. [Login](https://app.netlify.com/) to your account.
+7. [Login](https://app.netlify.com?utm_source=Spese) to your account.
 8. Select your desired site.
 9. From your site dashboard, go to *Settings > Access control > OAuth*.
 
