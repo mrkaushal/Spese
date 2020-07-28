@@ -6,7 +6,7 @@ To use The Spese Theme:
    
     ![Fork Repo](./assets/fork.png)
 
-2. Create an account on [Netlify](https://www.netlify.com/) or If you already have it, [login](https://app.netlify.com/) to your account.
+2. Create an account on [Netlify](https://www.netlify.com?utm_source=Spese) or If you already have it, [login](https://app.netlify.com?utm_source=Spese) to your account.
 3. Click on *Create new site from Git* button.
 
     ![Create new site from Git](./assets/new-site-from-git.png)
@@ -33,7 +33,7 @@ To use The Spese Theme:
 
 If you want to link custom domain to your site:
 
-1. Login to [Netlify](https://app.netlify.com/) and select your site.
+1. Login to [Netlify](https://app.netlify.com?utm_source=Spese) and select your site.
 2. Goto *Settings* --> *Domain Management* --> *Add custom domain*.
 3. Enter your domain and verify it.
 
