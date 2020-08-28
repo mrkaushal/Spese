@@ -1,10 +1,10 @@
 ---
 title: egwgreg
-client: ergergerge
+client: ME
 postdate: 22 Jul 2020
 tags:
-    - name: "Drawings"
-    - name: "Code"
+  - name: Drawings
+  - name: Code
 source: https://google.com
 image: /assets/uploads/05-min.jpg
 ---
