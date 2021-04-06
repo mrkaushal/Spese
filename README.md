@@ -4,15 +4,15 @@
 
 ## Project philosophy
 
-[The Spese Portfolio Theme](https://github.com/quantumzee/Spese) is intended to make it quick and easy for [Netlify](https://www.netlify.com/) users to create their first (of 1000s) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+[The Spese Portfolio Theme](https://github.com/getlocalhost/Spese) is intended to make it quick and easy for [Netlify](https://www.netlify.com/) users to create their first (of 1000s) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
 
 ## Installation and Usage
 
-To know how to install the theme and how to use, please refer to our [documentation](https://quantumzee.github.io/Spese/).
+To know how to install the theme and how to use, please refer to our [documentation](https://getlocalhost.github.io/Spese/).
 
 ## Roadmap
 
-See the [open issues](https://github.com/quantumzee/Spese/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/getlocalhost/Spese/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
