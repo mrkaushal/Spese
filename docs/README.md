@@ -1,6 +1,6 @@
 # The Spese Portfolio Theme
 
-*Spese is a Jekyll theme for Netlify CMS. You can [preview the theme to see what it looks like](https://spese.netlify.app/), or even [use it today](https://quantumx-dev.github.io/Spese).*
+*Spese is a Jekyll theme for Netlify CMS. You can [preview the theme to see what it looks like](https://spese.netlify.app/), or even [use it today](https://getlocalhost.github.io/Spese).*
 
 ## Project philosophy
 
@@ -8,4 +8,4 @@
 
 ## Donate
 
-Please consider donating if you think Spese is helpful to you or that our work is valuable. We are happy if you can help us [buy a cup of coffee](https://patreon.com/quantumx?utm_source=Spese). :heart:
+Please consider donating if you think Spese is helpful to you or that our work is valuable. We are happy if you can help us [buy a cup of coffee](https://patreon.com/getlocalhost?utm_source=Spese). :heart:

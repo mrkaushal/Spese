@@ -8,7 +8,7 @@
 
 ## Installation and Usage
 
-To know how to install the theme and how to use, please refer to our [documentation](https://getlocalhost.github.io/Spese/).
+To know how to install the theme and how to use, please refer to our [documentation](https://docs.getlocalhost.com/spese).
 
 ## Roadmap
 
